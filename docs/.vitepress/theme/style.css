@@ -1,0 +1,22 @@
+:root {
+  --vp-c-brand-1: #1D9E75;
+  --vp-c-brand-2: #17835F;
+  --vp-c-brand-3: #0F5C42;
+  --vp-c-brand-soft: rgba(29, 158, 117, 0.12);
+}
+
+.dark {
+  --vp-c-brand-1: #2DBA8A;
+  --vp-c-brand-2: #1D9E75;
+  --vp-c-brand-3: #17835F;
+}
+
+/* Tăng readability trên mobile */
+.vp-doc p {
+  line-height: 1.75;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
