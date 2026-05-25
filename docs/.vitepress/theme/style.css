@@ -20,3 +20,9 @@
   display: table;
   width: 100%;
 }
+
+/* Ẩn các nút trang trước/trang sau ở cuối bài viết */
+.prev-next {
+  display: none !important;
+}
+

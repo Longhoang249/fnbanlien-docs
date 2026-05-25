@@ -52,23 +52,34 @@ export default defineConfig({
         items: [
           { text: 'Tổng quan', link: '/dna-thuong-hieu/' },
           { text: 'DNA Thương Hiệu là gì?', link: '/dna-thuong-hieu/la-gi' },
-          { text: 'Thiết lập 5 bước', link: '/dna-thuong-hieu/thiet-lap' },
+          { text: 'Thiết lập 5 bước Onboarding', link: '/dna-thuong-hieu/thiet-lap' },
+          { text: 'Chỉnh sửa & Theo dõi DNA Score', link: '/dna-thuong-hieu/chinh-sua' },
         ]
       },
       {
-        text: '✍️ AI Viết Bài Facebook',
-        collapsed: true,
+        text: '✍️ AI Viết Bài & Chăm Sóc',
+        collapsed: false,
         items: [
           { text: 'Tổng quan', link: '/viet-bai/' },
-          { text: 'Hướng dẫn tạo bài', link: '/viet-bai/huong-dan' },
+          { text: 'Hướng dẫn viết bài & Lịch nội dung', link: '/viet-bai/huong-dan-viet' },
+          { text: 'Tương tác & Seeding đánh giá', link: '/ho-tro/review-seeding' },
         ]
       },
       {
-        text: '🎨 Studio AI',
-        collapsed: true,
+        text: '🎨 Visual Studio AI',
+        collapsed: false,
         items: [
           { text: 'Tổng quan', link: '/studio-ai/' },
-          { text: 'Hướng dẫn tạo poster', link: '/studio-ai/huong-dan' },
+          { text: 'Tạo ảnh món chuyên nghiệp', link: '/studio-ai/anh-mon-ai' },
+          { text: 'Thiết kế poster & Camera AI', link: '/studio-ai/poster-banner' },
+        ]
+      },
+      {
+        text: '🗺️ Bản Đồ & Chiến Lược',
+        collapsed: false,
+        items: [
+          { text: 'Bản đồ 6 vùng điểm chạm', link: '/chien-luoc/diem-cham-khach-hang' },
+          { text: 'Phân tích SWOT & Lộ trình', link: '/chien-luoc/swot-4p' },
         ]
       },
       {
@@ -76,14 +87,15 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Matcha AI là ai?', link: '/matcha-ai/' },
-          { text: 'Mẹo hỏi cho tốt', link: '/matcha-ai/meo-chat' },
+          { text: 'Trò chuyện hiệu quả với Matcha AI', link: '/matcha-ai/tro-ly-matcha' },
         ]
       },
       {
-        text: '💳 Gói và Thanh Toán',
+        text: '🪙 Tích Luỹ & Thành Viên',
         collapsed: true,
         items: [
-          { text: 'Bảng giá', link: '/goi-dich-vu/' },
+          { text: 'Điểm danh nhận Gold & Affiliate', link: '/ho-tro/gold-affiliate' },
+          { text: 'Bảng giá dịch vụ', link: '/goi-dich-vu/' },
           { text: 'Hướng dẫn thanh toán', link: '/goi-dich-vu/thanh-toan' },
         ]
       },
